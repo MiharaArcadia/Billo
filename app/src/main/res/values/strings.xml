@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Billio</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_invoices">Invoices</string>
+    <string name="nav_quotes">Quotes</string>
+    <string name="nav_clients">Clients</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+    <string name="optional">optional</string>
+    <string name="required_field">This field is required</string>
+    <string name="share">Share</string>
+    <string name="add">Add</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to Billio</string>
+    <string name="onboarding_welcome_subtitle">Offers and invoices for freelancers — fast, local, private.</string>
+    <string name="onboarding_business_title">Your business</string>
+    <string name="onboarding_tax_title">Taxes</string>
+    <string name="onboarding_bank_title">Bank details</string>
+    <string name="onboarding_finish">Get started</string>
+    <string name="field_name">Name / Company</string>
+    <string name="field_street">Street and number</string>
+    <string name="field_zip">ZIP</string>
+    <string name="field_city">City</string>
+    <string name="field_country">Country</string>
+    <string name="field_vat_id">VAT ID</string>
+    <string name="field_iban">IBAN</string>
+    <string name="field_bic">BIC</string>
+    <string name="field_email">Email</string>
+    <string name="field_phone">Phone</string>
+    <string name="field_company">Company</string>
+    <string name="field_notes">Notes</string>
+    <string name="field_logo">Logo</string>
+    <string name="pick_logo">Pick logo</string>
+    <string name="remove_logo">Remove logo</string>
+
+    <!-- Tax status -->
+    <string name="tax_status">Tax status</string>
+    <string name="tax_small_business">Small business §19 UStG</string>
+    <string name="tax_regular">VAT registered</string>
+    <string name="default_vat_rate">Default VAT rate</string>
+    <string name="default_payment_term">Default payment term (days)</string>
+    <string name="invoice_prefix">Invoice number prefix</string>
+    <string name="invoice_start_number">Start number</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hello %1$s</string>
+    <string name="ring_revenue">Revenue this month</string>
+    <string name="ring_open">Open</string>
+    <string name="ring_overdue">Overdue</string>
+    <string name="dashboard_revenue_goal">Goal: %1$s</string>
+    <string name="set_goal">Set monthly goal</string>
+    <string name="new_invoice">New invoice</string>
+    <string name="new_quote">New quote</string>
+    <string name="recent_activity">Recent activity</string>
+    <string name="empty_activity">No activity yet. Create your first invoice.</string>
+
+    <!-- Invoice list -->
+    <string name="tab_all">All</string>
+    <string name="tab_open">Open</string>
+    <string name="tab_overdue">Overdue</string>
+    <string name="tab_paid">Paid</string>
+    <string name="empty_invoices">No invoices yet</string>
+    <string name="empty_quotes">No quotes yet</string>
+    <string name="empty_clients">No clients yet</string>
+    <string name="swipe_mark_paid">Mark as paid</string>
+    <string name="swipe_delete">Delete</string>
+    <string name="swipe_convert">Convert to invoice</string>
+
+    <!-- Status -->
+    <string name="status_draft">Draft</string>
+    <string name="status_sent">Sent</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_overdue">Overdue</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_accepted">Accepted</string>
+    <string name="status_rejected">Rejected</string>
+
+    <!-- Invoice form -->
+    <string name="form_invoice_title">Invoice</string>
+    <string name="form_quote_title">Quote</string>
+    <string name="select_client">Select client</string>
+    <string name="new_client">New client</string>
+    <string name="invoice_number">Invoice number</string>
+    <string name="quote_number">Quote number</string>
+    <string name="issue_date">Issue date</string>
+    <string name="service_date">Service date / period</string>
+    <string name="due_date">Due date</string>
+    <string name="payment_term_days">Payment term (days)</string>
+    <string name="positions">Items</string>
+    <string name="add_position">Add item</string>
+    <string name="position_description">Description</string>
+    <string name="position_quantity">Qty</string>
+    <string name="position_unit">Unit</string>
+    <string name="position_unit_price">Unit price</string>
+    <string name="position_vat">VAT</string>
+    <string name="note_hint">Note / payment instructions</string>
+    <string name="total_net">Net</string>
+    <string name="total_vat">VAT</string>
+    <string name="total_gross">Total</string>
+    <string name="unit_hours">h</string>
+    <string name="unit_pieces">pcs</string>
+    <string name="unit_flat">flat</string>
+    <string name="unit_days">days</string>
+
+    <!-- Small business note -->
+    <string name="small_business_note">VAT not applicable under §19 German VAT Act (Kleinunternehmerregelung).</string>
+
+    <!-- Detail -->
+    <string name="generate_pdf">Generate PDF</string>
+    <string name="share_pdf">Share PDF</string>
+    <string name="mark_paid">Mark as paid</string>
+    <string name="cancel_invoice">Cancel invoice</string>
+    <string name="convert_to_invoice">Convert to invoice</string>
+    <string name="bill_to">Bill to</string>
+    <string name="paid_on">Paid on %1$s</string>
+
+    <!-- Client -->
+    <string name="client_detail">Client</string>
+    <string name="client_open_amount">Open: %1$s</string>
+    <string name="client_total_billed">Total billed: %1$s</string>
+    <string name="client_history">History</string>
+    <string name="cannot_delete_client">Cannot delete: client has open invoices</string>
+
+    <!-- Settings -->
+    <string name="settings_profile">Profile</string>
+    <string name="settings_invoicing">Invoicing</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_export">Export all data (ZIP)</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="lang_system">System default</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_en">English</string>
+
+    <!-- Dialogs -->
+    <string name="confirm_delete_title">Delete?</string>
+    <string name="confirm_delete_message">This cannot be undone.</string>
+    <string name="confirm_paid_title">Mark as paid?</string>
+    <string name="confirm_convert_title">Convert to invoice?</string>
+    <string name="confirm_convert_message">A new invoice number will be assigned.</string>
+
+    <!-- PDF labels -->
+    <string name="pdf_invoice">Invoice</string>
+    <string name="pdf_quote">Quote</string>
+    <string name="pdf_credit_note">Credit note</string>
+    <string name="pdf_invoice_no">Invoice no.</string>
+    <string name="pdf_quote_no">Quote no.</string>
+    <string name="pdf_date">Date</string>
+    <string name="pdf_service_period">Service period</string>
+    <string name="pdf_due">Due</string>
+    <string name="pdf_col_pos">#</string>
+    <string name="pdf_col_desc">Description</string>
+    <string name="pdf_col_qty">Qty</string>
+    <string name="pdf_col_unit">Unit</string>
+    <string name="pdf_col_price">Unit price</string>
+    <string name="pdf_col_vat">VAT</string>
+    <string name="pdf_col_total">Total</string>
+    <string name="pdf_bank_details">Bank details</string>
+    <string name="pdf_payment_terms">Payable by %1$s to the account below.</string>
+    <string name="pdf_thank_you">Thank you for your business.</string>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Billio</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_invoices">Rechnungen</string>
+    <string name="nav_quotes">Angebote</string>
+    <string name="nav_clients">Kunden</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- Common -->
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="done">Fertig</string>
+    <string name="next">Weiter</string>
+    <string name="back">Zurück</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="optional">optional</string>
+    <string name="required_field">Pflichtfeld</string>
+    <string name="share">Teilen</string>
+    <string name="add">Hinzufügen</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Willkommen bei Billio</string>
+    <string name="onboarding_welcome_subtitle">Angebote und Rechnungen für Freelancer — schnell, lokal, privat.</string>
+    <string name="onboarding_business_title">Dein Unternehmen</string>
+    <string name="onboarding_tax_title">Steuern</string>
+    <string name="onboarding_bank_title">Bankverbindung</string>
+    <string name="onboarding_finish">Loslegen</string>
+    <string name="field_name">Name / Firmenname</string>
+    <string name="field_street">Straße und Hausnummer</string>
+    <string name="field_zip">PLZ</string>
+    <string name="field_city">Stadt</string>
+    <string name="field_country">Land</string>
+    <string name="field_vat_id">USt-ID</string>
+    <string name="field_iban">IBAN</string>
+    <string name="field_bic">BIC</string>
+    <string name="field_email">E-Mail</string>
+    <string name="field_phone">Telefon</string>
+    <string name="field_company">Firma</string>
+    <string name="field_notes">Notizen</string>
+    <string name="field_logo">Logo</string>
+    <string name="pick_logo">Logo auswählen</string>
+    <string name="remove_logo">Logo entfernen</string>
+
+    <!-- Tax status -->
+    <string name="tax_status">Steuerstatus</string>
+    <string name="tax_small_business">Kleinunternehmer §19 UStG</string>
+    <string name="tax_regular">Regelbesteuert</string>
+    <string name="default_vat_rate">Standard-MwSt.-Satz</string>
+    <string name="default_payment_term">Standard-Zahlungsziel (Tage)</string>
+    <string name="invoice_prefix">Rechnungsnummern-Präfix</string>
+    <string name="invoice_start_number">Startnummer</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hallo %1$s</string>
+    <string name="ring_revenue">Einnahmen diesen Monat</string>
+    <string name="ring_open">Offen</string>
+    <string name="ring_overdue">Überfällig</string>
+    <string name="dashboard_revenue_goal">Ziel: %1$s</string>
+    <string name="set_goal">Monatsziel festlegen</string>
+    <string name="new_invoice">Neue Rechnung</string>
+    <string name="new_quote">Neues Angebot</string>
+    <string name="recent_activity">Letzte Aktivität</string>
+    <string name="empty_activity">Noch keine Aktivität. Erstelle deine erste Rechnung.</string>
+
+    <!-- Invoice list -->
+    <string name="tab_all">Alle</string>
+    <string name="tab_open">Offen</string>
+    <string name="tab_overdue">Überfällig</string>
+    <string name="tab_paid">Bezahlt</string>
+    <string name="empty_invoices">Noch keine Rechnungen</string>
+    <string name="empty_quotes">Noch keine Angebote</string>
+    <string name="empty_clients">Noch keine Kunden</string>
+    <string name="swipe_mark_paid">Als bezahlt markieren</string>
+    <string name="swipe_delete">Löschen</string>
+    <string name="swipe_convert">Zu Rechnung konvertieren</string>
+
+    <!-- Status -->
+    <string name="status_draft">Entwurf</string>
+    <string name="status_sent">Gesendet</string>
+    <string name="status_paid">Bezahlt</string>
+    <string name="status_overdue">Überfällig</string>
+    <string name="status_cancelled">Storniert</string>
+    <string name="status_accepted">Angenommen</string>
+    <string name="status_rejected">Abgelehnt</string>
+
+    <!-- Invoice form -->
+    <string name="form_invoice_title">Rechnung</string>
+    <string name="form_quote_title">Angebot</string>
+    <string name="select_client">Kunde wählen</string>
+    <string name="new_client">Neuer Kunde</string>
+    <string name="invoice_number">Rechnungsnummer</string>
+    <string name="quote_number">Angebotsnummer</string>
+    <string name="issue_date">Rechnungsdatum</string>
+    <string name="service_date">Leistungsdatum / -zeitraum</string>
+    <string name="due_date">Fälligkeitsdatum</string>
+    <string name="payment_term_days">Zahlungsziel (Tage)</string>
+    <string name="positions">Positionen</string>
+    <string name="add_position">Position hinzufügen</string>
+    <string name="position_description">Beschreibung</string>
+    <string name="position_quantity">Menge</string>
+    <string name="position_unit">Einheit</string>
+    <string name="position_unit_price">Einzelpreis</string>
+    <string name="position_vat">MwSt.</string>
+    <string name="note_hint">Notiz / Zahlungshinweis</string>
+    <string name="total_net">Netto</string>
+    <string name="total_vat">MwSt.</string>
+    <string name="total_gross">Brutto</string>
+    <string name="unit_hours">Std.</string>
+    <string name="unit_pieces">Stück</string>
+    <string name="unit_flat">pauschal</string>
+    <string name="unit_days">Tage</string>
+
+    <!-- Small business note -->
+    <string name="small_business_note">Gemäß §19 UStG wird keine Umsatzsteuer berechnet.</string>
+
+    <!-- Detail -->
+    <string name="generate_pdf">PDF erstellen</string>
+    <string name="share_pdf">PDF teilen</string>
+    <string name="mark_paid">Als bezahlt markieren</string>
+    <string name="cancel_invoice">Rechnung stornieren</string>
+    <string name="convert_to_invoice">Zu Rechnung konvertieren</string>
+    <string name="bill_to">Rechnung an</string>
+    <string name="paid_on">Bezahlt am %1$s</string>
+
+    <!-- Client -->
+    <string name="client_detail">Kunde</string>
+    <string name="client_open_amount">Offen: %1$s</string>
+    <string name="client_total_billed">Gesamt fakturiert: %1$s</string>
+    <string name="client_history">Verlauf</string>
+    <string name="cannot_delete_client">Löschen nicht möglich: Kunde hat offene Rechnungen</string>
+
+    <!-- Settings -->
+    <string name="settings_profile">Profil</string>
+    <string name="settings_invoicing">Rechnungsstellung</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_export">Alle Daten exportieren (ZIP)</string>
+    <string name="settings_about">Über</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="lang_system">Systemsprache</string>
+    <string name="lang_de">Deutsch</string>
+    <string name="lang_en">English</string>
+
+    <!-- Dialogs -->
+    <string name="confirm_delete_title">Löschen?</string>
+    <string name="confirm_delete_message">Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="confirm_paid_title">Als bezahlt markieren?</string>
+    <string name="confirm_convert_title">Zu Rechnung konvertieren?</string>
+    <string name="confirm_convert_message">Eine neue Rechnungsnummer wird vergeben.</string>
+
+    <!-- PDF labels -->
+    <string name="pdf_invoice">Rechnung</string>
+    <string name="pdf_quote">Angebot</string>
+    <string name="pdf_credit_note">Stornorechnung</string>
+    <string name="pdf_invoice_no">Rechnungsnr.</string>
+    <string name="pdf_quote_no">Angebotsnr.</string>
+    <string name="pdf_date">Datum</string>
+    <string name="pdf_service_period">Leistungszeitraum</string>
+    <string name="pdf_due">Fällig</string>
+    <string name="pdf_col_pos">Pos.</string>
+    <string name="pdf_col_desc">Beschreibung</string>
+    <string name="pdf_col_qty">Menge</string>
+    <string name="pdf_col_unit">Einheit</string>
+    <string name="pdf_col_price">Einzelpreis</string>
+    <string name="pdf_col_vat">MwSt.</string>
+    <string name="pdf_col_total">Gesamt</string>
+    <string name="pdf_bank_details">Bankverbindung</string>
+    <string name="pdf_payment_terms">Zahlbar bis %1$s auf das unten genannte Konto.</string>
+    <string name="pdf_thank_you">Vielen Dank für Ihren Auftrag.</string>
+</resources>
