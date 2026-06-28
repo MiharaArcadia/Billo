@@ -134,9 +134,9 @@ fun SettingsScreen(viewModel: SettingsViewModel = hiltViewModel()) {
             item { Section(stringResource(R.string.settings_language)) }
             item {
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    FilterChip(draft.languageTag == "system", { viewModel.update { it.copy(languageTag = "system") } }, { Text(stringResource(R.string.lang_system)) })
-                    FilterChip(draft.languageTag == "de", { viewModel.update { it.copy(languageTag = "de") } }, { Text(stringResource(R.string.lang_de)) })
-                    FilterChip(draft.languageTag == "en", { viewModel.update { it.copy(languageTag = "en") } }, { Text(stringResource(R.string.lang_en)) })
+                    FilterChip(draft.languageTag == "system", { viewModel.setLanguage("system") }, { Text(stringResource(R.string.lang_system)) })
+                    FilterChip(draft.languageTag == "de", { viewModel.setLanguage("de") }, { Text(stringResource(R.string.lang_de)) })
+                    FilterChip(draft.languageTag == "en", { viewModel.setLanguage("en") }, { Text(stringResource(R.string.lang_en)) })
                 }
             }
 

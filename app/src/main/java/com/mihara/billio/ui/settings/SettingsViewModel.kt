@@ -51,6 +51,15 @@ class SettingsViewModel @Inject constructor(
 
     fun update(transform: (UserSettings) -> UserSettings) { _draft.value = transform(_draft.value) }
 
+    /** Switches the app language immediately — persists and applies the locale without a Save tap. */
+    fun setLanguage(tag: String) {
+        _draft.value = _draft.value.copy(languageTag = tag)
+        viewModelScope.launch {
+            settingsRepository.save(_draft.value)
+            applyLanguage(tag)
+        }
+    }
+
     fun save() {
         viewModelScope.launch {
             settingsRepository.save(_draft.value)
