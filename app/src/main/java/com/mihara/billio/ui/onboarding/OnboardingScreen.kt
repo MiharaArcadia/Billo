@@ -68,6 +68,11 @@ fun OnboardingScreen(
     }
 
     Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+            TextButton(onClick = { viewModel.finish(onDone) }) {
+                Text(stringResource(R.string.skip))
+            }
+        }
         HorizontalPager(
             state = pager,
             modifier = Modifier.weight(1f),
@@ -161,7 +166,7 @@ fun OnboardingScreen(
                     Text(stringResource(R.string.next))
                 }
             } else {
-                Button(enabled = viewModel.isValid, onClick = { viewModel.finish(onDone) }) {
+                Button(onClick = { viewModel.finish(onDone) }) {
                     Text(stringResource(R.string.onboarding_finish))
                 }
             }
